@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "noEmit": true,
+    "target": "es5",
+    "lib": [ "es5", "dom" ],
+    "skipLibCheck": true,
+    "types": [ "cypress" ]
+  },
+  "include": [
+    "cypress/**/*"
+  ]
+}
