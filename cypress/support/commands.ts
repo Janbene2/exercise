@@ -31,7 +31,6 @@ declare global {
     namespace Cypress {
         interface Chainable<Subject> {
             findByLabelText(text: string): Chainable<Element>;
-            shouldBeOnPage(pageId: string): Chainable<Element>;
         }
     }
 }
